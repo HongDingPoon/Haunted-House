@@ -41,3 +41,44 @@ html
     margin: 10px;
     background-color: rgb(126, 79, 29);
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    img{
+        width: 250px; 
+        height: 250px;
+    }
+    #button {
+        height:100px;
+        width:100px;
+    }
+}
+@media (max-width: 601px) and (max-wdith: 1024px){
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img{
+        width: 500px; 
+        height: 500px;
+    }
+}
+@media (max-width: 1025px) {
+    h1 {
+        font-size: 44px;
+    }
+    p {
+        font-size: 18px;
+    }
+    img{
+        width: 550px; 
+        height: 550px;
+    }
+}
